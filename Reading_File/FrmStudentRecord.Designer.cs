@@ -39,6 +39,7 @@
             // btnRegister
             // 
             this.btnRegister.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.btnRegister.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnRegister.FlatAppearance.BorderSize = 0;
             this.btnRegister.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnRegister.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -74,6 +75,7 @@
             // btnFind
             // 
             this.btnFind.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.btnFind.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnFind.FlatAppearance.BorderSize = 0;
             this.btnFind.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnFind.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -89,6 +91,7 @@
             // btnUpload
             // 
             this.btnUpload.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.btnUpload.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnUpload.FlatAppearance.BorderSize = 0;
             this.btnUpload.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnUpload.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));

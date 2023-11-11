@@ -16,7 +16,7 @@ namespace Reading_File
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FrmOpenTextFile());
+            Application.Run(new FrmRegistration());
         }
     }
 }

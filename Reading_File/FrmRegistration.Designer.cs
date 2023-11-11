@@ -54,6 +54,7 @@
             // btnRegister
             // 
             this.btnRegister.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.btnRegister.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnRegister.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnRegister.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRegister.ForeColor = System.Drawing.Color.White;
@@ -250,6 +251,7 @@
             // btnRecords
             // 
             this.btnRecords.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.btnRecords.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnRecords.FlatAppearance.BorderSize = 0;
             this.btnRecords.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnRecords.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));

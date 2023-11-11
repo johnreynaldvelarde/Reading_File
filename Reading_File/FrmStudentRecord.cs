@@ -13,15 +13,18 @@ namespace Reading_File
 {
     public partial class FrmStudentRecord : Form
     {
-        public FrmStudentRecord()
+        private FrmRegistration regiForm;
+
+        public FrmStudentRecord(FrmRegistration regiForm)
         {
             InitializeComponent();
+            this.regiForm = regiForm;
         }
 
         private void btnRegister_Click(object sender, EventArgs e)
         {
-            FrmRegistration regi = new FrmRegistration();
-            regi.ShowDialog();
+            this.Hide();
+            regiForm.Show();
         }
 
         private void btnFind_Click(object sender, EventArgs e)
@@ -43,6 +46,7 @@ namespace Reading_File
                         string file;
                         while ((file = streamReader.ReadLine()) != null)
                         {
+                            Console.WriteLine(file);
                             lvShowText.Items.Add(file);
                         }
                     }
