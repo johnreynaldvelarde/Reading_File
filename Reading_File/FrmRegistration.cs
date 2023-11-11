@@ -102,6 +102,5 @@ namespace Reading_File
                 cbGender.Items.Add(listGender[i].ToString());
             }
         }
-      
     }
 }
